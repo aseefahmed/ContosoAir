@@ -8,6 +8,7 @@ const dealsService = require('../services').DealsService();
 
 const dateFormat = 'YYYY-MM-DD';
 const router = express.Router();
+//test
 
 router.get('/', secured, function(req, res, next) {
   const vm = {
